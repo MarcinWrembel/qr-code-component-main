@@ -1,0 +1,5 @@
+@use './variables' as *;
+
+@function getColor($key) {
+    @return map-get($colors, $key);
+  }
